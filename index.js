@@ -8,6 +8,10 @@ var through = require('through2');
 var PluginError = gulpUtil.PluginError;
 
 function compileGuide(opts) {
+  if (!opts || !opts.layout) {
+    throw new PluginError('gulp-compile-guide', 'Missing layout option for gulp-compile-guide');
+  }
+
   var renderer = new marked.Renderer({
     highlight: true
   });

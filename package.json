@@ -24,5 +24,10 @@
     "marked": "^0.3.3",
     "string-humanize": "^1.0.0",
     "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^6.0.1",
+    "gulp": "^3.8.11"
   }
 }
