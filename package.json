@@ -1,6 +1,6 @@
 {
   "name": "gulp-compile-guide",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "Compiles multiple template files together.",
   "main": "index.js",
   "scripts": {
@@ -18,10 +18,12 @@
   "homepage": "https://github.com/aranja/gulp-compile-guide",
   "dependencies": {
     "consolidate": "^0.12.1",
+    "front-matter": "^1.0.0",
     "gulp-util": "^3.0.4",
     "highlight.js": "^8.5.0",
     "jade": "^1.9.2",
     "marked": "^0.3.3",
+    "slug": "^0.9.1",
     "string-humanize": "^1.0.0",
     "through2": "^0.6.5"
   }
